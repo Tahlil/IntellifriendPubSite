@@ -1,0 +1,105 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: #161616ce;
+}
+p {
+  font-weight: 200;
+  font-size: 16px;
+}
+h2 {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 1;
+}
+h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1;
+}
+h4 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1;
+}
+.mt-50 {
+  margin-top: 50px !important;
+  margin-bottom: 50px !important;
+}
+.pt-50 {
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+}
+.pt-30 {
+  padding-top: 30px !important;
+  padding-bottom: 30px !important;
+}
+.top-tilte-container {
+  text-align: center;
+  padding: 40px 0;
+}
+.large-heading h1 {
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 1;
+}
+.section-light {
+  padding: 40px 0;
+  width: 100%;
+}
+.section-dark {
+  background-color: #d8d8d844;
+  padding: 40px 0;
+}
+.section-vdark {
+  background-color: #363636cc;
+  padding: 40px 0;
+}
+.sub-title-container {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.sub-title-container h1 {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 1;
+}
+.sub-title-container h2 {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1;
+}
+.sub-para-container {
+  text-align: left;
+}
+.trial-ad-container h1 {
+    font-weight: 100;
+    font-size: 36px;
+    color: rgb(245, 245, 245);
+  }
+@media screen and (min-width: 770px) {
+  .trial-ad-container {
+    text-align: right;
+  }
+}
+@media screen and (max-width: 768px) {
+    .trial-ad-container {
+        text-align: center;
+    }
+    .trial-ad-btn-container {
+        text-align: center;
+    }
+}
+
+.btn-general {
+    border-radius: 0;
+    padding: 12px, 26px, 12px, 26px;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}

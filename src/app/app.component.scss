@@ -1,0 +1,29 @@
+// main>.container {
+//     padding: 60px 15px 0;
+//   }
+
+.bg-custom-black {
+  background-color: rgba(45, 45, 45, 0.98);
+}
+
+.text-custom-black{
+  color:rgba(45, 45, 45, 0.98);
+}
+.footer {
+  background-color: rgba(45, 45, 45, 0.98);
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.navbar-toggler {
+  padding-top: 0px;
+  float: right;
+}
+
+.toggler {
+  padding-left: 229px;
+  padding-right: 0px;
+}

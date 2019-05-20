@@ -1,0 +1,27 @@
+<div class="register-body mtn-3">
+  <h1 class="text-white text-center">Register to start the <strong>free</strong> trial</h1>
+    <div class="main-form">
+      <form>
+        <small [hidden]="validation.UsernameNoErr" class="text-danger"> {{validation.UsernameErrMsg}} </small>
+        <input class="text mb-3" [ngClass]="{'border border-danger': !validation.UsernameNoErr}" type="text" name="Username" placeholder="Username" >
+
+        <small [hidden]="validation.EmailNoErr" class="text-danger"> {{validation.EmailErrMsg}}</small>
+        <input class="text email mb-3" [ngClass]="{'border border-danger': !validation.EmailNoErr}" type="email" name="email" placeholder="Email">
+        
+        <!-- <br> -->
+        <small [hidden]="validation.PasswordNoErr" class="text-danger"> {{validation.PasswordErrMsg}} <br> </small>
+        <small class="text-info"> *password should contain at least 8 characters </small>
+        <input class="text mb-3" [ngClass]="{'border border-danger': !validation.PasswordNoErr}" type="password" name="password" placeholder="Password">
+
+        <small [hidden]="noConfirmPassErr" class="text-danger"> {{ confirmPassErrMsg }}</small>
+        <input class="text w3lpass mb-3" [ngClass]="{'border border-danger': !noConfirmPassErr}" type="password" name="password" placeholder="Confirm Password">
+        <div class="wthree-text">
+          <label class="anim">
+            <input type="checkbox" class="checkbox" required="">
+            <span> I Agree To The Terms & Conditions</span>
+          </label>
+        </div>
+        <button type="button" class="submit" (submit)="onSubmit($event);"  (click)="checkAllVaildity($event);">SIGNUP</button>
+      </form>
+    </div>
+</div>

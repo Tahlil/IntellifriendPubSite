@@ -1,0 +1,170 @@
+.carousel-inner{
+    width:100%;
+    height: 300px;
+    //max-height: 250px !important;
+  }
+  
+  .carousel-caption {
+    top: 0;
+    bottom: auto;
+}
+
+.feature-intro{
+  margin-top:-5px;
+}
+
+.features {
+    background-color: white;
+    min-height: 50vh;
+    //height:1000 px;
+    padding: 20px ;
+    
+  }
+
+.feature-highlights{
+    //background-image: url("/assets/img/about/bg@3x.png");
+     width:100%;
+     min-height: 50vh;
+       
+}
+.row{
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+
+  .features-highlights-images{
+    height:200px;
+    width:200px;
+  }
+
+.feature-list{
+    width:100%;
+    background-color: rgba(45,45,45,0.98);
+    min-height: 50vh;
+    //padding-top: 10px;
+    //padding-bottom: 10px;
+}
+
+.feature-list-content{
+    min-height: 100vh;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    
+}
+
+ul .rect-list{
+    list-style: none;
+    grid-row-gap: 50px;
+    grid-column-gap: 10px;
+    //margin: 5px;
+    //padding: 50px;
+}
+
+li{
+    //background-color:rgba(45,45,45,0.98);
+    list-style: none;
+    padding: 10px white;
+    //margin: 1px solid black;    
+  
+    div{
+      button{
+        width:100%;
+      }
+    }
+    
+    a{
+        color:white;
+        
+    }
+    
+}
+
+
+
+
+
+.list-box{
+    display:block;
+    border: 1px solid rgba(45,45,45,0.98);
+    padding:10px;
+    
+}
+
+.image-right{
+    float:none;
+    //height: 300px;
+    //width: 100%;
+  }
+
+  .image-feature-right{
+    float:left;
+  }
+
+  .image-feature-left{
+    float:right;
+  }
+
+  .bg-custom-black {
+    background-color: rgba(45, 45, 45, 0.98);
+  }
+
+  .text-custom-black {
+    color: rgba(45, 45, 45, 0.98);
+  }
+
+
+  section{
+      div{
+          div{
+              div{
+                  border: 0px solid black;
+              }
+          }
+      }
+  }
+
+
+  .row-feature{
+      padding-top: 30px;
+      padding-bottom: 30px;
+      color: rgba(45, 45, 45, 0.98);
+  }
+
+  .row-jumbo{
+    margin-left:20px solid rgba(45,45,45,0.98);
+    margin-right: 20px solid rgba (45,45,45,0.98);
+
+  }
+
+
+.jumbotron {
+    
+    h1, p {
+      font-weight: 200;
+      color: rgba(45,45,45,0.98);
+    }
+    .title {
+      text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+      span {
+        font-weight: 300;
+      }
+    }
+
+    // border-left:10px solid rgba(45,45,45,0.98);
+    // border-right: 10px solid rgba (45,45,45,0.98);
+
+    color: white;
+    background: transparent;
+    //   padding: 30px 0;
+    p {
+    color: white;
+    }
+}

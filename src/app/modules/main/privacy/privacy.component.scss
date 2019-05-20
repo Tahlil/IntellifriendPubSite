@@ -1,0 +1,25 @@
+#accordion a{
+    text-decoration: none;
+    color:black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.card{
+    margin-bottom: 4px;
+}
+
+#accordion a:hover{
+    text-decoration: underline;
+}
+
+#downloadBtn{
+    background: #4a8f21;
+}
+
+#downloadBtn:hover{
+    background: #389204;
+}
+
+#trialBtn{
+    color: #389204;
+}

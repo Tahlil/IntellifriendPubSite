@@ -1,0 +1,105 @@
+
+::body {
+  // min-height: 500px;
+  // /* The image used */
+  background-image: url("/assets/images/low_poly_background.jpg");
+  // /* Center and scale the image nicely */
+  background-position: center;
+  background-attachment: fixed;
+  // background-repeat: repeat;
+  // background-size: cover;
+}
+
+h1,
+h2,
+h3,
+p {
+  font-weight: 200;
+  color:rgba(45, 45, 45, 0.98);
+}
+
+.bg-custom-black {
+  background-color: rgba(45, 45, 45, 0.98);
+}
+
+.text-custom-black{
+  color:rgba(45, 45, 45, 0.98);
+}
+
+.title {
+  text-shadow: 0px 0px 2px rgba(0, 0, 0, .5);
+  span {
+    font-weight: 300;
+  }
+}
+
+.starter {
+  padding: 20vh 0 40px;
+  text-align: center;
+  h1 {
+    font-size: 32px;
+  }
+  p {
+    font-weight: 200;
+    color: rgba(45, 45, 45, 0.98);
+  }
+}
+
+.downloaders {
+  .col {
+    transition: all 0.5s;
+    border-radius: 5px;
+    p {
+      color: rgba(45, 45, 45, 0.98);
+    }
+    .download-logo {
+      display: block;
+      margin: 0 auto;
+      fill: rgba(45, 45, 45, 0.98);
+      transition: all 0.5s;
+    }
+    a {
+      text-decoration: none;
+      padding: 15px;
+    }
+
+    h5{
+      color:rgba(45, 45, 45, 0.98);
+    }
+
+    &:hover {
+      background: rgba(0, 0, 0, 0.3);
+      .download-logo {
+        fill: yellowgreen;
+      }
+      a,
+      h3,
+      h5,
+      p {
+        color: yellowgreen;
+      }
+    }
+  }
+}
+
+.android-support-alert{
+  margin:1px solid black;
+}
+
+
+
+@media only screen and (min-width: 640px) {
+  .starter {
+    h1 {
+      font-size: 6vw;
+    }
+  }
+}
+
+@media only screen and (min-width: 980px) {
+  .starter {
+    h1 {
+      font-size: 64px;
+    }
+  }
+}

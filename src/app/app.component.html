@@ -1,0 +1,53 @@
+<nav class="navbar navbar-expand-md navbar-dark bg-custom-black fixed-top">
+  <div class="container d-flex flex-column flex-md-row justify-content-between">
+     <div class="inline">
+        <a class="navbar-brand" href="#"><img src="assets/images/big - Brain Jack.png" height="30px" width="30px" class="logo img-fluid" ></a>
+        <span class="navbar-text text-success">Intelli</span>
+        <span class="navbar-text text-primary">Friend</span>
+        <span class="toggler">
+        <button class="navbar-toggler mr-auto hidden-sm-up float-xs-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+        aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button></span>
+    </div>
+
+
+    <div class="collapse navbar-collapse " id="navbarsExampleDefault">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item  px-sm-4" routerLinkActive="active" [routerLinkActiveOptions]="{exact:
+        true}">
+          <a class="nav-link" [routerLink]="['/']">Home</a>
+        </li>
+        <li class="nav-item  px-sm-4" routerLinkActive="active">
+          <a class="nav-link " [routerLink]="['/features']">Features</a>
+        </li>
+        <li class="nav-item  px-sm-4" routerLinkActive="active">
+          <a class="nav-link" [routerLink]="['/faq']">FAQ</a>
+        </li>
+        <li class="nav-item  px-sm-4" routerLinkActive="active">
+          <a class="nav-link text-nowrap " [routerLink]="['/contact']">Contact Us</a>
+        </li>
+        <li class="nav-item px-sm-4" routerLinkActive="active">
+          <a class="nav-link text-nowrap" [routerLink]="['/about']">About Us</a>
+        </li>
+        <li class="nav-item  px-sm-4" routerLinkActive="active">
+          <a class="nav-link" [routerLink]="['/pricing']">Pricing</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="d-flex flex-column h-100">
+  <div class="main">
+    <router-outlet></router-outlet>
+    <app-subscribe></app-subscribe>
+    </div>
+  <app-footer></app-footer>
+  <!-- <footer class="footer mt-auto py-3">
+    <div class="container">
+      <span class="small text-muted">&copy; {{ currentYear}} IntelliFriend - All Rights Reserved.</span>
+    </div>
+  </footer> -->
+</div>
+

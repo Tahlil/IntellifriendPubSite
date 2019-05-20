@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "theme/fonts";
+@import "~node_modules/bootstrap/scss/functions";
+@import "theme/variables";
+@import "~node_modules/bootstrap/scss/bootstrap";
+body,
+html {
+  height: 100%;
+}
+
+body {
+  // min-height: 500px;
+  // /* The image used */
+  // background-image: url("/assets/images/low_poly_background.jpg");
+  // // /* Center and scale the image nicely */
+  // background-position: center;
+  // background-attachment: fixed;
+  // // background-repeat: repeat;
+  // background-size: cover;
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  color: #2d2d2dfa;
+  background-color: white;
+  .main {
+  background-position: center;
+  background-attachment: fixed;
+  // background-repeat: repeat;
+  // background-size: cover;
+  font-family: 'Helvetica-Neue','Helvetica','Arial', sans-serif;
+  color:2d2d2dfa;
+  background-color:white;
+
+    margin-top: 60px;
+  }
+}
+
+.footer {
+  background-color: $gray-900;
+}
