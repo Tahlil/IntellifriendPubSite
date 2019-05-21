@@ -7,7 +7,7 @@
 
         <small [hidden]="validation.EmailNoErr" class="text-danger"> {{validation.EmailErrMsg}}</small>
         <input class="text email mb-3" [ngClass]="{'border border-danger': !validation.EmailNoErr}" type="email" name="email" placeholder="Email">
-        
+
         <!-- <br> -->
         <small [hidden]="validation.PasswordNoErr" class="text-danger"> {{validation.PasswordErrMsg}} <br> </small>
         <small class="text-info"> *password should contain at least 8 characters </small>
@@ -21,7 +21,7 @@
             <span> I Agree To The Terms & Conditions</span>
           </label>
         </div>
-        <button type="button" class="submit" (submit)="onSubmit($event);"  (click)="checkAllVaildity($event);">SIGNUP</button>
+        <button type="button" class="submit"  (click)="checkAllVaildity($event);">SIGNUP</button>
       </form>
     </div>
 </div>
